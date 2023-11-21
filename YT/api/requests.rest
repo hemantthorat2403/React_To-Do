@@ -1,0 +1,15 @@
+GET http://localhost:3001/todos
+
+###
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text": "Sakshi la Hana."
+}
+
+###
+DELETE http://localhost:3001/todo/delete/655c26b5f5ab10bbc0452351
+
+###
+PUT http://localhost:3001/todo/complete/655c26e6f5ab10bbc0452355
